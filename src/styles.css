@@ -1,0 +1,101 @@
+.App {
+  font-family: Inter;
+  text-align: center;
+  color: white;
+  background: #111;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  margin: 40px 0;
+}
+
+video {
+  width: 400px;
+}
+
+#h1 {
+  font-family: Inter;
+}
+
+.player-wrapper.live .plyr__progress__container {
+  visibility: hidden;
+}
+
+.container {
+  width: 980px;
+  box-shadow: 0 4px 8px 0 rgba(50, 50, 50, 0.2),
+    0 6px 20px 0 rgba(50, 50, 50, 0.19);
+  margin-bottom: 10vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: normal !important;
+}
+.plyr {
+  border-radius: 5px;
+}
+.plyr__caption {
+  background: rgba(60, 60, 60, 0.6) !important;
+  border-radius: 5px;
+}
+
+b {
+  font-family: Inter;
+  font-weight: 400 !important;
+}
+
+video {
+  width: 100%;
+  box-shadow: 10px 10px 10px white;
+}
+
+body {
+  background: #111;
+  text-emphasis-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+li,
+label {
+  color: white;
+  font-weight: 400 !important;
+}
+
+.libassjs-canvas-parent {
+  z-index: 99999;
+}
+
+.libassjs-canvas {
+  z-index: 99999;
+}
+
+img {
+  width: 100%;
+  max-width: 45vw;
+}
+
+@media screen and (min-width: 900px) {
+  img {
+    width: 100%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  img {
+    width: 100%;
+    max-width: 100vw;
+  }
+}
